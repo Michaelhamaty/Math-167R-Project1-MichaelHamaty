@@ -73,3 +73,17 @@
 **Improvement.** The Extensions hub no longer includes "Why extend the project?" and the landing page no longer includes "Beyond the iid foundation." The surrounding navigation and extension links remain intact.
 
 **Verification.** A clean eleven-page render confirmed that both headings were absent from the authored and generated pages. All simulation, project, interaction, and link checks passed before the cleanup was committed and pushed.
+
+## Example 7: keeping the student in control
+
+**Reconstructed prompt.** This is a concise reconstruction of directions I gave throughout the project, not a verbatim chat message: "Use the course documents and my project specification as the authority. Do not choose the conclusion in advance. Keep seed 631 and $B=10000$, preserve any disagreement between diagnostics, and do not invent Cauchy moments. Begin with course code, record outside sources, and keep the five required analyses separate from extra credit. I want the final decisions, wording, navigation, and editorial cuts to follow my directions. If a check fails, stop, fix it, and verify again before committing or publishing anything."
+
+**Initial response.** Translate those constraints into a phased implementation with reusable simulation code, explicit statistical contracts, separate required and extension sections, validation scripts, and milestone commits.
+
+**Criticism.** A technically complete implementation would still be wrong if the AI silently selected the evidence standard, rewrote disputed results into agreement, expanded the cultural example beyond its permitted framing, or published material the student had asked to remove.
+
+**Follow-up.** Freeze the approved five-case foundation, retain diagnostic conflicts, use the student-selected extension scope and neutral creative paths, remove the two rejected sections entirely, and keep only professor-facing submission files in the final repository.
+
+**Improvement.** The final project reflects explicit student choices at each major decision point. AI assistance handled implementation and checking, while the student controlled the research question, source hierarchy, statistical safeguards, scope, visual direction, editorial cuts, and submission format.
+
+**Verification.** The final repository preserves the required seeds and simulation count, separates required work from extensions, reports Cauchy quantities correctly, documents code foundations, includes the requested removals, passes the clean render and validation suite, and publishes the verified eleven-page website through the student-selected GitHub repository.
