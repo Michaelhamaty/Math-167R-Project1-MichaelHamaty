@@ -50,7 +50,7 @@
 
 **Verification.** Assertions verify the dependent rate, positive finite chains, exact Bernoulli center and SE, normalized age probabilities, equal creative-path means, and probability-path reversal. Two clean builds reproduce compact outputs. A fresh reviewer caught escaped interactive controls, narrow-screen equation overflow, an unhelpful shared age-plot scale, and two missing provenance records. The controls were converted to raw HTML, runtime-aware Node checks were added, formulas were split and contained, the age panels received disclosed free x scales, and exact sources were recorded before the final eleven-page render.
 
-## Example 5: controlling the extension handoff
+## Example 5
 
 **Prompt.** First, put the current stage into Git. Then get organized and use the files you already made to establish everything that remains. This should be straightforward if you use the hooks.
 
@@ -74,7 +74,7 @@
 
 **Verification.** A clean eleven-page render confirmed that both headings were absent from the authored and generated pages. All simulation, project, interaction, and link checks passed before the cleanup was committed and pushed.
 
-## Example 7: keeping the student in control
+## Example 7
 
 **Reconstructed prompt.** This is a concise reconstruction of directions I gave throughout the project, not a verbatim chat message: "Use the course documents and my project specification as the authority. Do not choose the conclusion in advance. Keep seed 631 and $B=10000$, preserve any disagreement between diagnostics, and do not invent Cauchy moments. Begin with course code, record outside sources, and keep the five required analyses separate from extra credit. I want the final decisions, wording, navigation, and editorial cuts to follow my directions. If a check fails, stop, fix it, and verify again before committing or publishing anything."
 
