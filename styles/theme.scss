@@ -1,0 +1,178 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+$font-family-serif: Charter, "Iowan Old Style", Georgia, serif;
+$body-color: #17252d;
+$body-bg: #f7f5ef;
+$primary: #0d6973;
+$secondary: #bd5b32;
+$link-color: #09626c;
+$headings-font-family: $font-family-serif;
+$headings-color: #173f47;
+$navbar-bg: #173f47;
+$navbar-fg: #fffdf6;
+$border-radius: 0.25rem;
+
+/*-- scss:rules --*/
+body {
+  line-height: 1.68;
+}
+
+.navbar-brand {
+  font-family: $font-family-serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  border-bottom: 3px solid #d8a23c;
+  padding-bottom: 0.3rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #173f47 0%, #0d6973 100%);
+  color: #fffdf6;
+  margin: 0 0 2rem;
+  padding: clamp(1.4rem, 4vw, 3.4rem);
+  border-left: 0.55rem solid #d8a23c;
+}
+
+.hero h1 {
+  color: #fffdf6;
+  border: 0;
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 48rem;
+}
+
+.metric-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.8rem;
+  margin: 1.3rem 0;
+}
+
+.metric {
+  background: #fffdf8;
+  border: 1px solid #d7d4c9;
+  border-top: 4px solid #0d6973;
+  padding: 0.9rem;
+}
+
+.metric strong {
+  color: #173f47;
+  display: block;
+  font-family: $font-family-serif;
+  font-size: 1.35rem;
+}
+
+.callout {
+  background: #fffdf8;
+}
+
+table {
+  background: #fffdf8;
+}
+
+mjx-container[display="true"] {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.2rem;
+}
+
+.heritage-tool {
+  background: #fffdf8;
+  border: 1px solid #d7d4c9;
+  border-top: 5px solid #8b4f79;
+  margin: 1.25rem 0;
+  padding: 1rem;
+}
+
+.heritage-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.heritage-presets button {
+  background: #173f47;
+  border: 2px solid #173f47;
+  color: #fffdf6;
+  font: inherit;
+  padding: 0.45rem 0.8rem;
+}
+
+.heritage-presets button[aria-pressed="true"] {
+  background: #fffdf8;
+  color: #173f47;
+}
+
+.heritage-controls {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.heritage-controls label,
+.heritage-controls output {
+  color: #173f47;
+  font-weight: 650;
+}
+
+.heritage-controls input {
+  display: block;
+  margin-top: 0.35rem;
+  width: 100%;
+}
+
+.heritage-tool canvas {
+  display: block;
+  height: auto;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+.heritage-summary {
+  background: #f1eee5;
+  margin: 0.8rem 0 0;
+  padding: 0.7rem;
+}
+
+.figure-caption {
+  color: #40545a;
+  font-size: 0.92rem;
+}
+
+:focus-visible {
+  outline: 3px solid #d8a23c;
+  outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  body {
+    font-size: 0.98rem;
+  }
+
+  .hero {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+
+  .table-responsive {
+    font-size: 0.85rem;
+  }
+
+  .heritage-tool {
+    margin-left: -0.45rem;
+    margin-right: -0.45rem;
+    padding: 0.75rem;
+  }
+}
