@@ -26,10 +26,6 @@ paths <- do.call(rbind, lapply(simulations, `[[`, "paths"))
 selected_n <- c(10, 50, 200)
 ```
 
-::: {.callout-important title="Creative simplified simulation"}
-This page is not observed cultural data and is not a validated sociological model. It does not describe or rank any named language or community. Retention and shift are not treated as inherently better or worse.
-:::
-
 ## 1. Question and role
 
 How does an average behave when stylized retention probabilities vary across ordered household or contextual positions? The purpose is mathematical: to compare equal-mean Bernoulli paths, not to explain real cultural transmission.
